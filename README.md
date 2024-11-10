@@ -44,4 +44,4 @@ The dataset used for this project was acquired from [Kaggle's Fruit and Vegetabl
 
 ## Model Architecture
 
-![Network Architecture](network_architecture.png)
+<img src="network_architecture.png" alt="Network Architecture" style="width: 12vw; height: auto;">
