@@ -82,7 +82,7 @@ The model achieved an accuracy of over **90%** on the test dataset, demonstratin
 - **Recall:** 0.91 (ensuring few misclassifications)
 - **F1-Score:** 0.91 (balanced performance between precision and recall)
 
-## Possible Real-World Implementation:
+## Possible Real-World Implementation
 
 - **Self-Checkout and Cash Registers:** The model can be seamlessly integrated into **self-checkout kiosks** and **cash registers** to automate fruit identification. With perfect classification accuracy, it eliminates the need for manual look-ups, significantly speeding up the checkout process and reducing errors.
 
