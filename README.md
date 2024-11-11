@@ -9,11 +9,11 @@ This project implements a **Convolutional Neural Network (CNN)** using **TensorF
 
 ## Business Problem
 
-Long lines at checkout counters are a common frustration for both customers and retailers. Customers often become stressed and may abandon their shopping carts if the wait becomes too long, resulting in lost sales. For cashiers, long lines create additional pressure, leading to increased stress, decreased efficiency, and a higher likelihood of errors in the checkout process.
+**Long lines** at checkout counters are a common **frustration** for both customers and retailers. **Customers often become stressed** and may abandon their shopping carts if the wait becomes too long, resulting in **lost sales**. For cashiers, long lines create **additional pressure**, leading to **increased stress**, **decreased efficiency**, and a higher likelihood of errors in the checkout process.
 
-While self-checkout systems aim to alleviate some of these issues, many customers find them confusing or difficult to use, which can add to the frustration instead of solving it. If self-checkout kiosks are not intuitive or fast, they can further delay the process and worsen the customer experience.
+While self-checkout systems aim to alleviate some of these issues, many customers find them **confusing** or **difficult to use**, which can add to the frustration instead of solving it. If self-checkout kiosks are not intuitive or fast, they can **further delay the process** and worsen the customer experience.
 
-A key factor in improving checkout speed and efficiency is the ability to identify and classify produce items quickly and accurately. In many cases, identifying fruits and vegetables for weighing or pricing requires either searching for product codes or entering information manually, which can slow down the process. By automating and streamlining this step, retailers can significantly enhance customer experience and improve operational efficiency.
+**A key factor in improving checkout speed and efficiency is the ability to identify and classify produce items quickly and accurately**. In many cases, identifying fruits and vegetables for weighing or pricing requires either searching for product codes or entering information manually, which can slow down the process. **By automating and streamlining this step, retailers can significantly enhance customer experience and improve operational efficiency.**
 
 ## Methodology
 
