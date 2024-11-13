@@ -51,15 +51,26 @@ The model is a **CNN** with the following architecture:
 4. **Dense Layers**: These layers learn high-level representations and output a binary classification result (apple or pear).
 5. **Output Layer**: The final layer uses a **sigmoid activation** to output a value between 0 and 1, where values closer to 0 indicate "apple" and values closer to 1 indicate "pear".
 
-![Network Architecture](network_architecture.png)
+![Network Architecture](readme_graphics/network_architecture.png)
 
 ### Model Training
 
-The model was compiled with the **Adam optimizer** and **binary cross-entropy loss**, appropriate for binary classification tasks. Training was conducted for **100 epochs** with a batch size of 20. During training, the model's performance was monitored using accuracy as the primary metric.
+The model was compiled with the **Adam optimizer** and **binary cross-entropy loss**, appropriate for binary classification tasks. Training was conducted for **100 epochs** with a batch size of 20. During training, the model's performance was monitored using accuracy and loss as primary metrics.
+
+![Confusion Matrix](readme_graphics/accuracy.png)
+![Confusion Matrix](readme_graphics/loss.png)
 
 ### Model Evaluation
 
 Model performance was assessed using accuracy, and a confusion matrix was generated to visualize the results. Predictions were made on the test set, and the results were compared with the true labels using accuracy score and a classification report.
+
+The model achieved an high accuracy of **100%** on the test dataset, demonstrating its ability to effectively classify apples and pears. The following performance metrics were observed:
+- **Precision:** 1.0 (indicating high precision in identifying both apples and pears)
+- **Recall:** 1.0 (ensuring few misclassifications)
+- **F1-Score:** 1.0 (balanced performance between precision and recall)
+
+![Confusion Matrix](readme_graphics/confusion.png)
+
 
 ## Key Technologies
 
@@ -76,14 +87,12 @@ You can install the dependencies using the following command:
 pip install tensorflow numpy opencv-python matplotlib seaborn scikit-learn
 ```
 
-## Results
-The model achieved an accuracy of over **90%** on the test dataset, demonstrating its ability to effectively classify apples and pears. The following performance metrics were observed:
-- **Precision:** 0.92 (indicating high precision in identifying both apples and pears)
-- **Recall:** 0.91 (ensuring few misclassifications)
-- **F1-Score:** 0.91 (balanced performance between precision and recall)
+## Usage
+
+Here is an example of use:
+
+![Confusion Matrix](readme_graphics/result.png)
 
 ## Possible Real-World Implementation
 
-- **Self-Checkout and Cash Registers:** The model can be seamlessly integrated into **self-checkout kiosks** and **cash registers** to automate fruit identification. With perfect classification accuracy, it eliminates the need for manual look-ups, significantly speeding up the checkout process and reducing errors.
-
-
+**Self-Checkout and Cash Registers:** The model can be seamlessly integrated into **self-checkout kiosks** and **cash registers** to automate fruit identification. With perfect classification accuracy, it eliminates the need for manual look-ups, significantly speeding up the checkout process and reducing errors.
